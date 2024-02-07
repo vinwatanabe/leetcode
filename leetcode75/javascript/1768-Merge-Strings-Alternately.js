@@ -35,3 +35,20 @@ var mergeAlternately = function (word1, word2) {
 
 	return finalWord;
 };
+
+/* Better solution */
+
+// var mergeAlternately = function(word1, word2) {
+//     const biggestWord = Math.max(word1.length, word2.length);
+
+//     let finalWord = "";
+
+//     for(let i = 0; i < biggestWord; i++) {
+//         let charWord1 = word1[i] || '';
+//         let charWord2 = word2[i] || '';
+
+//         finalWord += charWord1 + charWord2;
+//     }
+
+//     return finalWord;
+// };
